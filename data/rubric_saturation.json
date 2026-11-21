@@ -1,0 +1,513 @@
+{
+ "sets": {
+  "opus_s42": {
+   "n": 71,
+   "weight": 65.5,
+   "correctness": {
+    "app_mean": 2.5140845070422535,
+    "app_sd": 1.1132107825473514,
+    "app_floor": 15,
+    "app_floor_share": 0.2112676056338028,
+    "app_ceil": 3,
+    "app_min": 1.0,
+    "app_max": 5.0,
+    "ref_mean": 4.711267605633803,
+    "ref_sd": 0.4570417109743085,
+    "ref_floor": 0,
+    "ref_ceil": 48,
+    "ref_ceil_share": 0.676056338028169,
+    "ref_min": 3.0,
+    "ref_max": 5.0,
+    "overlap_items": 5,
+    "ratio": 0.4079696394686907
+   },
+   "completeness": {
+    "app_mean": 1.1901408450704225,
+    "app_sd": 0.45475730397078706,
+    "app_floor": 59,
+    "app_floor_share": 0.8309859154929577,
+    "app_ceil": 0,
+    "app_min": 1.0,
+    "app_max": 3.0,
+    "ref_mean": 4.929577464788732,
+    "ref_sd": 0.25585777640260493,
+    "ref_floor": 0,
+    "ref_ceil": 66,
+    "ref_ceil_share": 0.9295774647887324,
+    "ref_min": 4.0,
+    "ref_max": 5.0,
+    "overlap_items": 0,
+    "ratio": 0.04838709677419355
+   },
+   "usefulness": {
+    "app_mean": 1.3098591549295775,
+    "app_sd": 0.5197927348519982,
+    "app_floor": 48,
+    "app_floor_share": 0.676056338028169,
+    "app_ceil": 0,
+    "app_min": 1.0,
+    "app_max": 3.0,
+    "ref_mean": 4.992957746478873,
+    "ref_sd": 0.05891972017845602,
+    "ref_floor": 0,
+    "ref_ceil": 70,
+    "ref_ceil_share": 0.9859154929577465,
+    "ref_min": 4.5,
+    "ref_max": 5.0,
+    "overlap_items": 0,
+    "ratio": 0.07760141093474428
+   },
+   "row_hist": {
+    "correctness": {
+     "app": {
+      "1": 31,
+      "2": 43,
+      "3": 38,
+      "4": 24,
+      "5": 6
+     },
+     "ref": {
+      "3": 2,
+      "4": 37,
+      "5": 103
+     }
+    },
+    "completeness": {
+     "app": {
+      "1": 119,
+      "2": 19,
+      "3": 4
+     },
+     "ref": {
+      "4": 10,
+      "5": 132
+     }
+    },
+    "usefulness": {
+     "app": {
+      "1": 104,
+      "2": 32,
+      "3": 6
+     },
+     "ref": {
+      "4": 1,
+      "5": 141
+     }
+    }
+   },
+   "U_actual": 0.1668308702791462,
+   "U_actual_ci": [
+    0.1285,
+    0.206
+   ],
+   "U_correctness5": 0.37635467980295556,
+   "U_correctness5_ci": [
+    0.3533,
+    0.3996
+   ],
+   "U_completeness_ref": 0.47430329101043067,
+   "U_usefulness_ref": 0.4696963389532599,
+   "U_comp_use_ref": 0.777168759684544,
+   "U_comp_use_ref_ci": [
+    0.741,
+    0.8118
+   ],
+   "R2_u_on": {
+    "correctness": 0.8442413231814757,
+    "completeness": 0.6595736200627351,
+    "usefulness": 0.7820928799785097
+   },
+   "corr": {
+    "correctness_completeness": 0.5441896619327379,
+    "correctness_usefulness": 0.6557433633488873,
+    "completeness_usefulness": 0.8530623944274799
+   }
+  },
+  "opus_s43": {
+   "n": 71,
+   "weight": 65.5,
+   "correctness": {
+    "app_mean": 2.443661971830986,
+    "app_sd": 1.1338246870430297,
+    "app_floor": 17,
+    "app_floor_share": 0.23943661971830985,
+    "app_ceil": 2,
+    "app_min": 1.0,
+    "app_max": 5.0,
+    "ref_mean": 4.71830985915493,
+    "ref_sd": 0.4419259574573868,
+    "ref_floor": 0,
+    "ref_ceil": 47,
+    "ref_ceil_share": 0.6619718309859155,
+    "ref_min": 3.0,
+    "ref_max": 5.0,
+    "overlap_items": 4,
+    "ratio": 0.38825757575757575
+   },
+   "completeness": {
+    "app_mean": 1.2183098591549295,
+    "app_sd": 0.4575839364716397,
+    "app_floor": 56,
+    "app_floor_share": 0.7887323943661971,
+    "app_ceil": 0,
+    "app_min": 1.0,
+    "app_max": 3.0,
+    "ref_mean": 4.950704225352113,
+    "ref_sd": 0.190531679696742,
+    "ref_floor": 0,
+    "ref_ceil": 66,
+    "ref_ceil_share": 0.9295774647887324,
+    "ref_min": 4.0,
+    "ref_max": 5.0,
+    "overlap_items": 0,
+    "ratio": 0.055258467023172886
+   },
+   "usefulness": {
+    "app_mean": 1.323943661971831,
+    "app_sd": 0.5247305918365397,
+    "app_floor": 46,
+    "app_floor_share": 0.647887323943662,
+    "app_ceil": 0,
+    "app_min": 1.0,
+    "app_max": 3.5,
+    "ref_mean": 5.0,
+    "ref_sd": 0.0,
+    "ref_floor": 0,
+    "ref_ceil": 71,
+    "ref_ceil_share": 1.0,
+    "ref_min": 5.0,
+    "ref_max": 5.0,
+    "overlap_items": 0,
+    "ratio": 0.08098591549295775
+   },
+   "row_hist": {
+    "correctness": {
+     "app": {
+      "1": 35,
+      "2": 45,
+      "3": 32,
+      "4": 24,
+      "5": 6
+     },
+     "ref": {
+      "3": 2,
+      "4": 36,
+      "5": 104
+     }
+    },
+    "completeness": {
+     "app": {
+      "1": 115,
+      "2": 23,
+      "3": 4
+     },
+     "ref": {
+      "4": 7,
+      "5": 135
+     }
+    },
+    "usefulness": {
+     "app": {
+      "1": 102,
+      "2": 35,
+      "3": 4,
+      "4": 1
+     },
+     "ref": {
+      "5": 142
+     }
+    }
+   },
+   "U_actual": 0.16225057245665686,
+   "U_actual_ci": [
+    0.1282,
+    0.2005
+   ],
+   "U_correctness5": 0.3781485116126919,
+   "U_correctness5_ci": [
+    0.3558,
+    0.4016
+   ],
+   "U_completeness_ref": 0.4676406492602985,
+   "U_usefulness_ref": 0.46385345109584564,
+   "U_comp_use_ref": 0.7692435278994875,
+   "U_comp_use_ref_ci": [
+    0.7343,
+    0.8045
+   ],
+   "R2_u_on": {
+    "correctness": 0.7868817156709427,
+    "completeness": 0.46886413250063425,
+    "usefulness": 0.7521264215683825
+   },
+   "corr": {
+    "correctness_completeness": 0.30196475690907126,
+    "correctness_usefulness": 0.5751618989070845,
+    "completeness_usefulness": 0.7906569374214032
+   }
+  },
+  "codex_s42": {
+   "n": 71,
+   "weight": 65.5,
+   "correctness": {
+    "app_mean": 2.556338028169014,
+    "app_sd": 1.2797152405924384,
+    "app_floor": 14,
+    "app_floor_share": 0.19718309859154928,
+    "app_ceil": 7,
+    "app_min": 1.0,
+    "app_max": 5.0,
+    "ref_mean": 4.711267605633803,
+    "ref_sd": 0.7347605331421123,
+    "ref_floor": 0,
+    "ref_ceil": 58,
+    "ref_ceil_share": 0.8169014084507042,
+    "ref_min": 2.0,
+    "ref_max": 5.0,
+    "overlap_items": 9,
+    "ratio": 0.4193548387096774
+   },
+   "completeness": {
+    "app_mean": 1.4788732394366197,
+    "app_sd": 0.6630946426103291,
+    "app_floor": 41,
+    "app_floor_share": 0.5774647887323944,
+    "app_ceil": 0,
+    "app_min": 1.0,
+    "app_max": 4.0,
+    "ref_mean": 4.76056338028169,
+    "ref_sd": 0.4012230854434962,
+    "ref_floor": 0,
+    "ref_ceil": 51,
+    "ref_ceil_share": 0.7183098591549296,
+    "ref_min": 4.0,
+    "ref_max": 5.0,
+    "overlap_items": 0,
+    "ratio": 0.12734082397003746
+   },
+   "usefulness": {
+    "app_mean": 1.732394366197183,
+    "app_sd": 0.8426608841058562,
+    "app_floor": 33,
+    "app_floor_share": 0.4647887323943662,
+    "app_ceil": 0,
+    "app_min": 1.0,
+    "app_max": 4.5,
+    "ref_mean": 4.880281690140845,
+    "ref_sd": 0.37023773036887087,
+    "ref_floor": 0,
+    "ref_ceil": 63,
+    "ref_ceil_share": 0.8873239436619719,
+    "ref_min": 3.0,
+    "ref_max": 5.0,
+    "overlap_items": 0,
+    "ratio": 0.18874773139745915
+   },
+   "row_hist": {
+    "correctness": {
+     "app": {
+      "1": 30,
+      "2": 59,
+      "3": 13,
+      "4": 24,
+      "5": 16
+     },
+     "ref": {
+      "2": 9,
+      "3": 1,
+      "4": 12,
+      "5": 120
+     }
+    },
+    "completeness": {
+     "app": {
+      "1": 86,
+      "2": 47,
+      "3": 6,
+      "4": 3
+     },
+     "ref": {
+      "4": 34,
+      "5": 108
+     }
+    },
+    "usefulness": {
+     "app": {
+      "1": 68,
+      "2": 51,
+      "3": 17,
+      "4": 5,
+      "5": 1
+     },
+     "ref": {
+      "3": 3,
+      "4": 11,
+      "5": 128
+     }
+    }
+   },
+   "U_actual": 0.24402558061258844,
+   "U_actual_ci": [
+    0.1931,
+    0.2985
+   ],
+   "U_correctness5": 0.45001682935038706,
+   "U_correctness5_ci": [
+    0.4161,
+    0.4856
+   ],
+   "U_completeness_ref": 0.5189033900474542,
+   "U_usefulness_ref": 0.5065065587059893,
+   "U_comp_use_ref": 0.7813843681408545,
+   "U_comp_use_ref_ci": [
+    0.7379,
+    0.825
+   ],
+   "R2_u_on": {
+    "correctness": 0.8067711839582061,
+    "completeness": 0.7632100151829826,
+    "usefulness": 0.8417946033973617
+   },
+   "corr": {
+    "correctness_completeness": 0.6030760233269575,
+    "correctness_usefulness": 0.6735598076225956,
+    "completeness_usefulness": 0.8910158132272329
+   }
+  },
+  "codex_s43": {
+   "n": 71,
+   "weight": 65.5,
+   "correctness": {
+    "app_mean": 2.507042253521127,
+    "app_sd": 1.2877892338774604,
+    "app_floor": 15,
+    "app_floor_share": 0.2112676056338028,
+    "app_ceil": 7,
+    "app_min": 1.0,
+    "app_max": 5.0,
+    "ref_mean": 4.683098591549296,
+    "ref_sd": 0.8103183021770437,
+    "ref_floor": 0,
+    "ref_ceil": 58,
+    "ref_ceil_share": 0.8169014084507042,
+    "ref_min": 2.0,
+    "ref_max": 5.0,
+    "overlap_items": 10,
+    "ratio": 0.40917782026768645
+   },
+   "completeness": {
+    "app_mean": 1.5070422535211268,
+    "app_sd": 0.6418116839472928,
+    "app_floor": 38,
+    "app_floor_share": 0.5352112676056338,
+    "app_ceil": 0,
+    "app_min": 1.0,
+    "app_max": 4.0,
+    "ref_mean": 4.732394366197183,
+    "ref_sd": 0.4346844890707314,
+    "ref_floor": 0,
+    "ref_ceil": 50,
+    "ref_ceil_share": 0.704225352112676,
+    "ref_min": 3.5,
+    "ref_max": 5.0,
+    "overlap_items": 0,
+    "ratio": 0.13584905660377358
+   },
+   "usefulness": {
+    "app_mean": 1.7394366197183098,
+    "app_sd": 0.7999082470692616,
+    "app_floor": 29,
+    "app_floor_share": 0.4084507042253521,
+    "app_ceil": 0,
+    "app_min": 1.0,
+    "app_max": 4.5,
+    "ref_mean": 4.887323943661972,
+    "ref_sd": 0.33773461431779717,
+    "ref_floor": 0,
+    "ref_ceil": 63,
+    "ref_ceil_share": 0.8873239436619719,
+    "ref_min": 3.5,
+    "ref_max": 5.0,
+    "overlap_items": 0,
+    "ratio": 0.19021739130434778
+   },
+   "row_hist": {
+    "correctness": {
+     "app": {
+      "1": 32,
+      "2": 60,
+      "3": 13,
+      "4": 20,
+      "5": 17
+     },
+     "ref": {
+      "2": 11,
+      "4": 12,
+      "5": 119
+     }
+    },
+    "completeness": {
+     "app": {
+      "1": 80,
+      "2": 55,
+      "3": 4,
+      "4": 3
+     },
+     "ref": {
+      "3": 1,
+      "4": 36,
+      "5": 105
+     }
+    },
+    "usefulness": {
+     "app": {
+      "1": 63,
+      "2": 59,
+      "3": 16,
+      "4": 2,
+      "5": 2
+     },
+     "ref": {
+      "3": 2,
+      "4": 12,
+      "5": 128
+     }
+    }
+   },
+   "U_actual": 0.2408660351826794,
+   "U_actual_ci": [
+    0.1923,
+    0.2937
+   ],
+   "U_correctness5": 0.45331529093369416,
+   "U_correctness5_ci": [
+    0.4214,
+    0.4866
+   ],
+   "U_completeness_ref": 0.5133840934647127,
+   "U_usefulness_ref": 0.505617602774972,
+   "U_comp_use_ref": 0.7781356610570054,
+   "U_comp_use_ref_ci": [
+    0.7353,
+    0.8237
+   ],
+   "R2_u_on": {
+    "correctness": 0.8007233766518481,
+    "completeness": 0.6934819002450423,
+    "usefulness": 0.8577216047278504
+   },
+   "corr": {
+    "correctness_completeness": 0.5239437079412775,
+    "correctness_usefulness": 0.6854200934877569,
+    "completeness_usefulness": 0.881471735114636
+   }
+  }
+ },
+ "notes": {
+  "metric": "ruler v0.4 U-total: u=0 if trace refused else mean(3 dims)-1; r=mean(ref 3 dims)-1; U=sum(w*u)/sum(w*r); health weight 0.5",
+  "counterfactual_correctness5": "replace the app's correctness with 5.0 on every item, keep completeness/usefulness as judged",
+  "counterfactual_comp_use_ref": "replace the app's completeness and usefulness with the reference's item mean on every item, keep correctness as judged",
+  "R2": "R^2 of the per-item u on one dimension, over the 71 headline items",
+  "overlap": "items where the app's item-mean score >= the reference's item-mean score on that dimension"
+ }
+}
