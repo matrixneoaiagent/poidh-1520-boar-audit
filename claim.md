@@ -6,4 +6,4 @@ The "coverage" ratios (0.052, 0.079) are between-system mode constants, not per-
 
 Counterfactuals under the record's weights: correctness=5 everywhere still gives **U=0.376/0.378 (Opus), 0.450/0.453 (Codex)** — below 0.50; completeness+usefulness at the reference mean gives **0.777/0.769 and 0.781/0.778** — above 0.50. The bar is decided by the two dimensions on which the app never wins on any item. The 0.50 verdict stands; the 0.165 magnitude and the dimension split need a checklist/finer scale.
 
-Report + repro: [LINK]
+Report + repro: https://github.com/matrixneoaiagent/poidh-1520-boar-audit/blob/main/report.md
